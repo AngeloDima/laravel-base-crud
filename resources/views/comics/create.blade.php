@@ -21,11 +21,11 @@
         </div>
         <div>
             <label for="thumb">Thumb</label>
-            <input type="url" name="thumb">
+            <input type="text" name="thumb">
         </div>
         <div>
             <label for="price">Price</label>
-            <input type="number" step=".01" name="price">
+            <input type="number" step=".5" name="price">
         </div>
         <div>
             <label for="series">Serie</label>
