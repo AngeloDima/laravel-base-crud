@@ -13,7 +13,7 @@ class ComicSeeder extends Seeder
     public function run()
     {
         //
-        $comics = config('data.comics');
+        $comics = config('comics');
 
         foreach($comics as $model){
             $comic = new Comic();
