@@ -21,7 +21,7 @@
         </div>
         <div>
             <label for="thumb">Thumb</label>
-            <input type="text" name="thumb">
+            <input type="url" name="thumb">
         </div>
         <div>
             <label for="price">Price</label>
