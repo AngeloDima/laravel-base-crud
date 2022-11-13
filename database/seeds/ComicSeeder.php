@@ -25,7 +25,6 @@ class ComicSeeder extends Seeder
             $comic->sale_date = $model['sale_date'];
             $comic->type = $model['type'];
             $comic->save();
-            // .
          }
 
 
