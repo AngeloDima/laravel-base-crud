@@ -12,5 +12,14 @@
         <img src="{{ $comic->thumb }}" alt="">
     </div>
     <p>{{ $comic->description }}</p>
+
+
+
+
+
+
+    <div>
+        <a href="{{ route('comics.edit', $comic->id) }}">Edit</a>
+    </div>
 </body>
 </html>
