@@ -43,19 +43,19 @@ class ComicController extends Controller
 
         $request->validatore([
 
-            "title" => 'required',
+            "title" => 'required|max:150',
 
             "description" => 'required',
 
-            "thumb" => 'required',
+            "thumb" => 'required|max:250',
 
             "price" => 'required',
 
-            "series" => 'required',
+            "series" => 'required|max:50',
 
             "sale_date" => 'required',
 
-            "type" => 'required',
+            "type" => 'required|max:50',
             
 
         ]);

@@ -13,7 +13,7 @@
         @csrf
         <div>
             <label for="title">Title</label>
-            <input type="text" required name="title">
+            <input type="text"max="150" required name="title">
         </div>
         <div>
             <label for="description">Description</label>
@@ -21,7 +21,7 @@
         </div>
         <div>
             <label for="thumb">Thumb</label>
-            <input type="url" required name="thumb">
+            <input type="url"max="250" required name="thumb">
         </div>
         <div>
             <label for="price">Price</label>
@@ -29,7 +29,7 @@
         </div>
         <div>
             <label for="series">Serie</label>
-            <input type="text" required name="series">
+            <input type="text"max="50" required name="series">
         </div>
         <div>
             <label for="sale_date">Date</label>
@@ -37,7 +37,7 @@
         </div>
         <div>
             <label for="type">Type</label>
-            <input type="text" name="type">
+            <input type="text"max="50" name="type">
         </div>
         <div>
             <input type="submit" value="Crea!">
